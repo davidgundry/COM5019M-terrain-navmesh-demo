@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>c70ef7afddcf9854aa947780d0b56df5</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2024-02-21T11:18:38.6856701+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cae59e781798ba648b72ab772240ef70</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2024-02-21T11:18:38.687693+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>922c850902807ad4c808279e7ee6f705</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2024-02-21T11:18:38.6896588+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ad989f28985645e468582c9467876dda</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2024-02-21T11:18:38.690656+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e36c8d37b8660574d90122e3d49bcfbe</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2024-02-21T11:18:38.6916532+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>df5ae01d1c56cea4db7b21974ee42146</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2024-02-21T11:18:38.692651+00:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>21dae2c18c9c4a147aecf5a75cc818c6</guid>
+    <fileName>Assets/Scripts/PlayerBehaviour.cs</fileName>
+    <timeStamp>2024-02-21T10:58:54.7617203+00:00</timeStamp>
+    <typeFullName>
+      <string>PlayerBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+</ArrayOfTypeDate>
