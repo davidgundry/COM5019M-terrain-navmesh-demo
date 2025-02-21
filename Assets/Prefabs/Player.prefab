@@ -144,6 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21dae2c18c9c4a147aecf5a75cc818c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _nma: {fileID: 1832659558825459754}
   coins: 0
 --- !u!54 &5852093274109208832
 Rigidbody:

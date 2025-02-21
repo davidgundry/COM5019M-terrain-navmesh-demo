@@ -189,6 +189,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6497698464297407907, guid: 3d6817443841ff44c98556d8c3de76ef, type: 3}
   m_PrefabInstance: {fileID: 7484933560442747261}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &170298064 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 1832659558825459754, guid: 3d6817443841ff44c98556d8c3de76ef, type: 3}
+  m_PrefabInstance: {fileID: 7484933560442747261}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &552544498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1491,7 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3493157325415909465, guid: ce1053fa8d8735c4390dbd0ebf95d3f7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.7300003
+      value: -2.7299998
       objectReference: {fileID: 0}
     - target: {fileID: 3493157325415909465, guid: ce1053fa8d8735c4390dbd0ebf95d3f7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1511,11 +1516,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3493157325415909465, guid: ce1053fa8d8735c4390dbd0ebf95d3f7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000029991302
+      value: -0.000000029991302
       objectReference: {fileID: 0}
     - target: {fileID: 3493157325415909465, guid: ce1053fa8d8735c4390dbd0ebf95d3f7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000015615134
+      value: 0.000000015615134
       objectReference: {fileID: 0}
     - target: {fileID: 3493157325415909465, guid: ce1053fa8d8735c4390dbd0ebf95d3f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1624,6 +1629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3931073713676218968, guid: 3d6817443841ff44c98556d8c3de76ef, type: 3}
+      propertyPath: _nma
+      value: 
+      objectReference: {fileID: 170298064}
     - target: {fileID: 6497698464297407907, guid: 3d6817443841ff44c98556d8c3de76ef, type: 3}
       propertyPath: m_RootOrder
       value: 9
