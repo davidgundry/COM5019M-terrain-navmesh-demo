@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using NaughtyAttributes;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class PlayerBehaviour : MonoBehaviour
 {
-    private NavMeshAgent _nma;
-    public int coins;
+    [SerializeField, HideInInspector] private NavMeshAgent _nma;
+    [SerializeField, ReadOnly] private int coins;
 
-    // Start is called before the first frame update
-    void Start()
+    void Reset()
     {
         _nma = GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -30,7 +29,6 @@ public class PlayerBehaviour : MonoBehaviour
 
     void OnTriggerEnter(Collider c)
     {
-        Debug.Log("Trigger");
         if (c.gameObject.CompareTag("Coin"))
         {
             Destroy(c.gameObject);
